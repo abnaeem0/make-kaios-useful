@@ -1,0 +1,29 @@
+{
+  "version": "1.0.2",
+  "name": "My Toolbox",
+  "description": "Quick access to recorder, alarms, hotspot, and notes",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "icons": {
+    "56": "/icon.png",
+    "112": "/icon.png"
+  },
+  "developer": {
+    "name": "you"
+  },
+  "default_locale": "en-US",
+  "permissions": {
+    "audio-capture": {
+      "description": "Required to record audio"
+    },
+    "device-storage:sdcard": {
+      "access": "readwrite",
+      "description": "Save recordings to SD card"
+    },
+    "device-storage:music": {
+      "access": "readwrite",
+      "description": "Save recordings"
+    }
+  },
+  "orientation": "portrait"
+}

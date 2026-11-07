@@ -1,0 +1,49 @@
+script dir: C:\Users\abuba\Desktop\make kaios useful
+dist dir: C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist
+
+JS files found:
+      280015  C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist\vendors.js
+      187520  C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist\app.bundle.js
+        2485  C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist\dial-activity.bundle.js
+
+==============================================================================
+FILE: C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist\vendors.js 280015 bytes
+==============================================================================
+raw 'customEvtentKey' occurrences: 1
+definition-style matches: 1
+  - definition match at 14665  (pattern 'customEvtentKey\\s*[:=]\\s*\\w')
+
+----- definition context around 14665 -----
+ t.key===e});return!!r&&(n.launch(r.type,r.url),!0)}}Object.defineProperty(t,"__esModule",{value:!0}),t.asyncLocalStorage=t.isLandscape=void 0,t.toL10n=i,t.sendNumberToContact=a,t.getDeepProp=s,t.pickContact=u,t.simpleClone=l,t.clamp=c,t.rowColToIndex=f,t.indexToRowCol=p,t.isRtl=d,t.navGrid=h,t.contactNumFilter=v,t.getContactDetails=m,t.flat=g,t.insertBetween=y,t.showToast=b,t.setLocalStorage=_,t.customEvtentKey=w;var E=n(254),C=r(E);t.isLandscape=screen.orientation.type.startsWith("landscape"),t.asyncLocalStorage={setItem:function(e,t){return Promise.resolve().then(function(){localStorage.setItem(e,t)})},getItem:function(e){return Promise.resolve().then(function(){return localStorage.getItem(e)})}}},function(e,t,n){"use strict";var r=n(192);e.exports={debugTool:r}},function(e,t){"use strict";function n(e){return function(){return e}}var r=function(){};r.thatReturns=n,r.thatReturnsFalse=n(!1),r.thatReturnsTrue=n(!0),r.thatReturnsNull=n(null),r.thatReturnsThis=function(){return this},r.thatReturnsArgument=function(e){return e},e.exports=r},function(e,t,n){"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},o=n(6),i=n(22),a=(n(3),n(61),"function"==typeof Symbol&&Symbol.for&&Symbol.for("react.element")||60103),s={key:!0,ref:!0,__self:!0,__source:!0},u=function(e,t,n,r,o,i,s){var u={$$typeof:a,type:e,key:t,ref:n,props:s,_owner:i};return u};u.createElement=function(e,t,n){var r,o={},a=null,l=null,c=null,f=null;if(null!=t){l=void 0===t.ref?null:t.ref,a=void 0===t.key?null:""+t.key,c=void 0===t.__self?null:t.__self,f=void 0===t.__source?null:t.__source;for(r in t)t.hasOwnProperty(r)&&!s.hasOwnProperty(r)&&(o[r]=t[r])}var p=arguments.length-2;if(1===p)o.children=n;else if(p>1){for(var d=Array(p),h=0;h<p;h++)d[h]=arguments[h+2];o.children=d}if(e&&e.defaultProps){var v=e.defaultProps;for(r in v)void 0===o[r]&&(o[r]=v[r])}return u(e,a,l,c,f,i.current,o)},u.createFactory=function(e){var t=u.createElement.bind(null,e);return t.type=e,t},u.cloneAndReplaceKey=function(e,t){return u(e.type,t,e.ref,e._self,e._source,e._owner,e.props)},u.cloneElement=function(e,t,n){var r,a=o({},e.props),l=e.key,c=e.ref,f=e._self,p=e._source,d=e._owner;if(null!=t){void 0!==t.ref&&(c=t.ref,d=i.current),void 0!==t.key&&(l=""+t.key);var h;e.type&&e.type.defaultProps&&(h=e.type.defaultProps);for(r in t)t.hasOwnProperty(r)&&!s.hasOwnProperty(r)&&(void 0===t[r]&&void 0!==h?a[r]=h[r]:a[r]=t[r])}var v=arguments.length-2;if(1===v)a.children=n;else if(v>1){for(var m=Array(v),g=0;g<v;g++)m[g]=arguments[g+2];a.children=m}return u(e.type,l,c,f,p,d,a)},u.isValidElement=function(e){return"object"===("undefined"==typeof e?"undefined":r(e))&&null!==e&&e.$$typeof===a},e.exports=u},function(e,t,n){"use strict";e.exports=n(175)},function(e,t,n){"use strict";function r(){T.ReactReconcileTransaction&&w?void 0:m(!1)}function o(){this.reinitializeTransaction(),this.dirtyComponentsLength=null,this.callbackQueue=f.getPooled(),this.reconcileTransaction=T.ReactReconcileTransaction.getPooled(!0)}function i(e,t,n,o,i,a){r(),w.batchedUpdates(e,t,n,o,i,a)}function a(e,t){return e._mountOrder-t._mountOrder}function s(e){var t=e.dirtyComponentsLength;t!==g.length?m(!1):void 0,g.sort(a),y++;for(var n=0;n<t;n++){var r=g[n],o=r._pendingCallbac
+----- end context -----
+
+
+==============================================================================
+FILE: C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist\app.bundle.js 187520 bytes
+==============================================================================
+raw 'customEvtentKey' occurrences: 3
+definition-style matches: 0
+no definition matches; showing first 3 raw hits:
+
+----- raw context around 23196 -----
+uments.length,u=Array(s),l=0;l<s;l++)u[l]=arguments[l];return n=i=r(this,(e=t.__proto__||Object.getPrototypeOf(t)).call.apply(e,[this].concat(u))),i.name="SpeedDialHelper",a=n,r(i,a)}return s(t,e),u(t,[{key:"speedDial",value:function(e){var t=m.default.query("forceSettings"),n=t[k.default[3]];if(!L.customEvtentKey(String(e),n,w.default)){var i=e-1;if(!(i<0)){if(0===i)return void this.dialVoicemail();var a=d.default.contacts[i].tel;a?(g.default.isSpeedDial=!0,g.default.dial(a,{speedDial:!0})):this.assignSpeedDial(e)}}}},{key:"dialVoicemail",value:function(){var e=this;m.default.request("chooseSim","call").then(function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,n=d.default["ril.iccInfo.mbdn"],i=(Array.isArray(n)?n[t]:n)||navigator.mozVoicemail&&navigator.mozVoicemail.getNumber(t);i?(g.default.isSpeedDial=!0,g.default.dial(i,{serviceId:t,speedDial:!0})):e.assignSpeedDial(1)})}},{key:"assignSpeedDial",value:function(e){e=Number(e),e&&(1===e?m.default.request("showDialog",{type:"alert",header:"confirmation",content:"assign-voicemail"}):m.default.request("showDialog",{ok:"assign",type:"confirm",header:L.toL10n("confirmation"),content:L.toL10n("assign-speed-dial",{n:e}),translated:!0,onOk:function(){L.pickContact(function(t){var n=t.target.result,i=n.id;if(n&&i)return n.tel||n.tel[0]||n.tel[0].value?void d.default.set(e,n.tel[0].value,i):void window.alert(L.toL10n("alert-for-contacts-without-number"))})}}))}},{key:"removeSpeedDial",value:function(e){var t=e.nu
+----- end raw context -----
+
+
+----- raw context around 159488 -----
+lt.query("AppList.ready")&&!g.default.query("LaunchStore.isLaunching")){var t=e.key;if("step2"===g.default.query("experienceStep")&&g.default.request("closeExperiecnceView","step1"),!n._longPressTimer){n.keydownRecords.set(t,Date.now());var i=g.default.query("forceSettings"),a=i[N.default[6]];if(!F.customEvtentKey(t,a,C.default)){switch(t){case"ArrowRight":C.default.launch("manifestURL","app://camera.gaiamobile.org/manifest.webapp");break;case"ArrowLeft":g.default.query("Sidemenu.itemCount")>0&&g.default.request("openSheet","sidemenu");break;case"ArrowDown":g.default.request("setCardsFocus"),e.preventDefault(),e.stopPropagation()}n._shortLongPressTimer=setTimeout(function(){switch(n.clearShortLongPressTimer(),n._shortLongPressActionTriggered=!0,t){case"EndCall":case"BrowserBack":case"Backspace":if("Backspace"===t&&n.hasEndCallKey||!document.hasFocus())return;C.default.launch("iac","launcher-panel",{
+target:"sleep-menu"});break;default:n._shortLongPressActionTriggered=!1}},n.shortPressDuration),n._longPressTimer=setTimeout(function(){n.clearLongPressTimer(),n._longPressActionTriggered=!0;var e=i[N.default[3]];if(!F.customEvtentKey(t,e,C.default))switch(t){case n.keyToTriggerFlashLight:L.default.toggle(),n._longPressActionTriggered=!1;break;case"Enter":new MozActivity({name:"voice-assistant",data:{from:"Homescreen"}});break;case"*":C.default.launch("iac","launcher-panel",{target:"lock-screen"});break;default:n._longPressActionTriggered=!1}},n.longPressDuration)}}}},n.onKeyUp=fu
+----- end raw context -----
+
+
+----- raw context around 160320 -----
+ndCallKey||!document.hasFocus())return;C.default.launch("iac","launcher-panel",{
+target:"sleep-menu"});break;default:n._shortLongPressActionTriggered=!1}},n.shortPressDuration),n._longPressTimer=setTimeout(function(){n.clearLongPressTimer(),n._longPressActionTriggered=!0;var e=i[N.default[3]];if(!F.customEvtentKey(t,e,C.default))switch(t){case n.keyToTriggerFlashLight:L.default.toggle(),n._longPressActionTriggered=!1;break;case"Enter":new MozActivity({name:"voice-assistant",data:{from:"Homescreen"}});break;case"*":C.default.launch("iac","launcher-panel",{target:"lock-screen"});break;default:n._longPressActionTriggered=!1}},n.longPressDuration)}}}},n.onKeyUp=function(e){var t=e.key;if(n._longPressTimer&&n._shortLongPressTimer&&!g.default.query("LaunchStore.isLaunching")&&g.default.query("AppList.ready")){if(n.clearShortLongPressTimer(),n.clearLongPressTimer(),n._shortLongPressActionTriggered)return void(n._shortLongPressActionTriggered=!1);if(n._longPressActionTriggered)return void(n._longPressActionTriggered=!1);switch(t){case"Call":if(!n.isValidKeyUp("Call"))return;C.default.launch("manifestURL","app://communications.gaiamobile.org/manifest.webapp");break;case"Enter":if(!n.isValidKeyUp("Enter"))return;n.deleteMainFocusClass(),g.default.request("openSheet","appList");break;case"SoftLeft":if(!n.isValidKeyUp("SoftLeft"))return;C.default.launch("iac","launcher-panel",{target:"notice"}),g.default.request("updateSoftKeyPoint",!1);break;case"SoftRight":if(!n.isValidKeyUp("SoftRight
+----- end raw context -----
+
+
+==============================================================================
+FILE: C:\Users\abuba\Downloads\platform-tools-latest-windows (1)\platform-tools\launcher\dist\dial-activity.bundle.js 2485 bytes
+==============================================================================
+raw 'customEvtentKey' occurrences: 0
+definition-style matches: 0

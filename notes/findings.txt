@@ -1,0 +1,14 @@
+======================================================================
+1. app.bundle.js search
+======================================================================
+app.bundle.js not found in expected locations; searching tree...
+found bundles: []
+
+======================================================================
+2. omni_extracted search
+======================================================================
+
+======================================================================
+3. ADB probing for shared.gaiamobile.org and settings
+======================================================================
+adb.exe not found at C:\Users\abuba\Desktop\make kaios useful\adb.exe - skipping adb section
