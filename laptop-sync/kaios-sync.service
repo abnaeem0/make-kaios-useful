@@ -1,0 +1,7 @@
+[Unit]
+Description=Digit 4G sync: move recordings to laptop, send music to phone
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/kaios-sync.sh
+TimeoutStartSec=30min

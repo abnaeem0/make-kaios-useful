@@ -1,0 +1,8 @@
+# Copy to ~/.config/kaios-sync.conf and change what's different for you.
+# Anything you leave out keeps the default from kaios-sync.sh.
+
+PHONE_STORAGE="Internal"                    # storage name shown in the file manager (e.g. "Internal", "SD card")
+PHONE_RECORDINGS_DIR="recordings"           # folder on the phone holding the .ogg recordings
+LAPTOP_RECORDINGS="$HOME/Recordings/Phone"  # where recordings land on the laptop
+LAPTOP_MUSIC="$HOME/Music/ForPhone"         # laptop folder to send to the phone
+PHONE_MUSIC_DIR="music"                     # where songs go on the phone
