@@ -22,6 +22,7 @@ talk to the phone's settings over the Marionette debugging socket.
 | Path | What it is |
 |------|------------|
 | [`toolbox/`](toolbox/) | My own app — audio recorder + menu of shortcuts. Sideloaded, runs as a `privileged` app. |
+| [`laptop-sync/`](laptop-sync/) | Plug the phone into a Linux laptop → recordings move off the phone, family music goes onto it. Runs by itself on plug-in. |
 | [`scripts/`](scripts/) | Python helpers that talk to the phone over ADB + the Marionette socket (read/write hidden settings, dump the settings actor, search the launcher bundle). |
 | [`notes/`](notes/) | Raw output dumps from the reverse-engineering sessions (launcher bundle search, settings actor, etc.). |
 | [`reference/crosstweak/`](reference/crosstweak/) | A copy of BananaHackers **CrossTweak** (public domain) — the unprivileged tweaker I used to open the dev menu. Kept here for convenience. |
@@ -189,6 +190,22 @@ to reason about on-device. Lots of `console.log` left in for DevTools.
 - [ ] Confirm & document the exact debug-unlock URL and ADB forward commands.
 - [ ] A proper recordings browser (list/play/delete what's on storage).
 - [ ] Icon (`manifest` references `/icon.png` which isn't in the package yet).
+
+---
+
+## Living with it: laptop sync
+
+Using the phone day to day as a carry-along backup phone means two chores: getting the
+voice recordings off it, and getting music onto it. [`laptop-sync/`](laptop-sync/) does both
+whenever the phone is plugged into my Linux laptop (no ADB or debug mode needed — it uses the
+normal USB file-transfer / MTP connection):
+
+- `.ogg` recordings are **moved** to the laptop — deleted from the phone only after a verified
+  copy, and never kept twice even if renamed.
+- New songs from a laptop folder are **copied** to the phone; nothing on the phone is deleted.
+
+Setup, safety details and how to point it at your own folders:
+[`laptop-sync/README.md`](laptop-sync/README.md).
 
 ---
 
